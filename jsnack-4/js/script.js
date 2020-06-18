@@ -17,7 +17,7 @@ btnRandom.addEventListener ("click" , function(){
     document.getElementById("numero").innerHTML = "Numero " + numero + " Pari";
 
   } else{
-    elem.classList.remove("pari");
-        document.getElementById("numero").innerHTML = "Numero " + numero +" Dispari";
+      elem.classList.remove("pari");
+      document.getElementById("numero").innerHTML = "Numero " + numero +" Dispari";
   }
 });

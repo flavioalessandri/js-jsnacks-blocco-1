@@ -17,26 +17,23 @@ btnCalc.addEventListener ("click" , function(){
     document.getElementById("risultato").innerHTML= "Nessun Risultato";
 
   } else if(simbol == "Dividi") {
-    var risultato = num1 / num2;
-    console.log(risultato);
-    document.getElementById("risultato").innerHTML= risultato;
+      var risultato = num1 / num2;
+      console.log(risultato);
+      document.getElementById("risultato").innerHTML= risultato;
 
   } else if(simbol == "Moltiplica"){
-    var risultato = num1 * num2;
-    console.log(risultato);
-        document.getElementById("risultato").innerHTML= risultato;
+      var risultato = num1 * num2;
+      console.log(risultato);
+      document.getElementById("risultato").innerHTML= risultato;
 
   } else if(simbol == "Somma"){
-    var risultato = Math.round(num1 + num2);
-
-
       var risultato =  parseFloat(num1) +  parseFloat(num2);
       console.log(risultato);
-          document.getElementById("risultato").innerHTML= risultato;
+      document.getElementById("risultato").innerHTML= risultato;
 
   } else{
-        var risultato = num1 - num2;
-        console.log(risultato);
-            document.getElementById("risultato").innerHTML= risultato;
-      }
+      var risultato = num1 - num2;
+      console.log(risultato);
+      document.getElementById("risultato").innerHTML= risultato;
+  }
 });
