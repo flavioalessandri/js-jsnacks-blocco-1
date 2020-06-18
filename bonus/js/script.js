@@ -5,9 +5,12 @@
 var btnLanciaMoneta = document.getElementById("lanciaMoneta");
 document.getElementById("moneta").classList.add="hidden";
 
+
 btnLanciaMoneta.addEventListener ("click" , function(){
+
   document.getElementById("moneta").classList.add="show";
   document.getElementById("moneta").classList.remove="hidden";
+
   var random;
   var moneta;
   var min= 0;
