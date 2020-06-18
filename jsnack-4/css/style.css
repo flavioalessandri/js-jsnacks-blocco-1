@@ -55,16 +55,6 @@ p{
   height:400px;
 }
 
-button{
-  font-weight: bold;
-  font-size: 12px;
-  background-color: rgba(254,255,254,.8);
-  padding:4px;
-  border-radius: 5px;
-  color:white;
-  transition: .2s;
-}
-
 .input{
   display: flex;
   flex-direction: column;

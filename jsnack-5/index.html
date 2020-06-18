@@ -20,21 +20,28 @@
   </header>
   <main>
     <div class="container">
-    <!-- esercizio 4 -->
-    <input id="num1" type="number" name="" value="">
-    <input id="num2" type="number" name="" value="">
-    <select id="simbol"class="" name="">
-      <option value="" selected> Seleziona operazione </option>
+      <h2>Crea una calcolatrice</h2>
 
-      <option value="Dividi"> Dividi </option>
-      <option value="Moltiplica"> Moltiplica </option>
-      <option value="Somma"> Somma </option>
-      <option value="Sottrai"> Sottrai </option>
-    </select>
-    <p id="risultato"></p>
+      <div class="calcolatrice">
+          <!-- esercizio 5 -->
+        <input id="num1" type="number" placeholder="numero">
+        <input id="num2" type="number" placeholder="numero">
+        <select id="simbol"class="" name="">
+          <option value="" selected> Seleziona operazione</option>
 
-    <button id="btnCalc" type="button" name="button">CALCOLA</button>
+          <option value="Dividi"> Dividi </option>
+          <option value="Moltiplica"> Moltiplica </option>
+          <option value="Somma"> Somma </option>
+          <option value="Sottrai"> Sottrai </option>
+        </select>
+        <div class="result">
+          <p id="risultato"></p>
+        </div>
 
+
+        <button id="btnCalc" type="button" name="button">CALCOLA</button>
+      </div>
+    </div>
   </main>
 
   <script type="text/javascript" src="js/script.js"></script>

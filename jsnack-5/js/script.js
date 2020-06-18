@@ -21,19 +21,16 @@ btnCalc.addEventListener ("click" , function(){
     console.log(risultato);
     document.getElementById("risultato").innerHTML= risultato;
 
-
   } else if(simbol == "Moltiplica"){
     var risultato = num1 * num2;
     console.log(risultato);
         document.getElementById("risultato").innerHTML= risultato;
 
   } else if(simbol == "Somma"){
-      var risultato = parseInt(num1) + parseInt(num2);
-      console.log(risultato);
-          document.getElementById("risultato").innerHTML= risultato;
+    var risultato = Math.round(num1 + num2);
 
-  } else if(simbol == "Somma"){
-      var risultato = num1 + num2;
+
+      var risultato =  parseFloat(num1) +  parseFloat(num2);
       console.log(risultato);
           document.getElementById("risultato").innerHTML= risultato;
 
