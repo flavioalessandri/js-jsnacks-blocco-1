@@ -1,0 +1,58 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("../img/math2.jpg");
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+h1{
+  background-color: rgba(61,64,91,.9);
+  text-align: center;
+  color:white;
+  font-size: 22px;
+  width: 100%;
+  text-align: center;
+  padding:20px;
+  margin: 20px 0;
+}
+
+
+h2,h3{
+  text-align: center;
+  color:rgb(61,64,91);
+  font-size: 17px;
+  width: 100%;
+  text-align: center;
+  padding-bottom:10px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width:100%;
+  height:300px;
+}
+
+.content{
+  background-color: #FEFFFE;
+  padding:20px;
+  border: 2px solid rgb(61,64,91);
+  border-radius: 5px;
+  width:400px;
+}
+
+.content #numMaggiore{
+  color: white;
+  background-color: rgb(117,12,55);
+  padding:40px 20px;
+  border-radius: 5px;
+}
