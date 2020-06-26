@@ -1,8 +1,4 @@
-
-
-
 // ESERCIZIO 7 .stampa le potenze di un numero............................................
-
 
 var btnCalc = document.getElementById("btnCalc");
 

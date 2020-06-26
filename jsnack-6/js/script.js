@@ -1,6 +1,4 @@
-
 // ESERCIZIO 6 .............................................
-
 
 var btnCalc = document.getElementById("btnCalc");
 
